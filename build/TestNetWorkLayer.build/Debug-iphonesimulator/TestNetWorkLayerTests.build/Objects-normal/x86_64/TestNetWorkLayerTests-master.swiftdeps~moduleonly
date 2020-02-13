@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "ab53b7bddcf0c51d155e04d2f38e6736"
+build_time: [1581574974, 101054000]
+inputs:
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayerTests/TestNetWorkLayerTests.swift": [1581574972, 981848904]

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "4053808b1f4987be36233c622722e6fd"
+build_time: [1581575061, 162275000]
+inputs:
+  "/Users/macosx/Desktop/TestNetWorkLayer/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1581566415, 594753296]

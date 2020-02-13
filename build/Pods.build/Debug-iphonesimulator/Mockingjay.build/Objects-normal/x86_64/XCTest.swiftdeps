@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "swizzleTearDown"
+- "AssociatedMockingjayRemoveStubOnTearDownHandle"
+provides-nominal:
+provides-member:
+- ["So6XCTestC", ""]
+- ["So6XCTestC", "mockingjayRemoveStubOnTearDown"]
+- ["So6XCTestC", "stub"]
+- ["So6XCTestC", "removeStub"]
+- ["So6XCTestC", "removeAllStubs"]
+- ["So6XCTestC", "mockingjaySwizzleTearDown"]
+- ["So6XCTestC", "mockingjayTearDown"]
+provides-dynamic-lookup:
+- "mockingjayTearDown"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "AssociatedMockingjayRemoveStubOnTearDownHandle"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Builder"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Matcher"
+- !private "MockingjayProtocol"
+- "Stub"
+- "TimeInterval"
+- "UInt8"
+- "Void"
+- "XCTest"
+- "class_getInstanceMethod"
+- "method_exchangeImplementations"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+- "swizzleTearDown"
+depends-member:
+- !private ["s7CVarArgP", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["s7CVarArgP", "MockingjayProtocol"]
+- !private ["s7CVarArgP", "XCTest"]
+- !private ["s7CVarArgP", "addStub"]
+- !private ["s7CVarArgP", "mockingjayRemoveStubOnTearDown"]
+- !private ["s7CVarArgP", "mockingjaySwizzleTearDown"]
+- ["s7CVarArgP", "mockingjayTearDown"]
+- !private ["s7CVarArgP", "objc_getAssociatedObject"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "removeAllStubs"]
+- !private ["s7CVarArgP", "removeStub"]
+- !private ["s7CVarArgP", "swizzleTearDown"]
+- ["s7CVarArgP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["s28CustomDebugStringConvertibleP", "MockingjayProtocol"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTest"]
+- !private ["s28CustomDebugStringConvertibleP", "addStub"]
+- !private ["s28CustomDebugStringConvertibleP", "mockingjayRemoveStubOnTearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "mockingjaySwizzleTearDown"]
+- ["s28CustomDebugStringConvertibleP", "mockingjayTearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllStubs"]
+- !private ["s28CustomDebugStringConvertibleP", "removeStub"]
+- !private ["s28CustomDebugStringConvertibleP", "swizzleTearDown"]
+- ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["s23CustomStringConvertibleP", "MockingjayProtocol"]
+- !private ["s23CustomStringConvertibleP", "XCTest"]
+- !private ["s23CustomStringConvertibleP", "addStub"]
+- !private ["s23CustomStringConvertibleP", "mockingjayRemoveStubOnTearDown"]
+- !private ["s23CustomStringConvertibleP", "mockingjaySwizzleTearDown"]
+- ["s23CustomStringConvertibleP", "mockingjayTearDown"]
+- !private ["s23CustomStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "removeAllStubs"]
+- !private ["s23CustomStringConvertibleP", "removeStub"]
+- !private ["s23CustomStringConvertibleP", "swizzleTearDown"]
+- ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["SQ", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["SQ", "MockingjayProtocol"]
+- !private ["SQ", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SQ", "XCTest"]
+- !private ["SQ", "addStub"]
+- !private ["SQ", "mockingjayRemoveStubOnTearDown"]
+- !private ["SQ", "mockingjaySwizzleTearDown"]
+- ["SQ", "mockingjayTearDown"]
+- !private ["SQ", "objc_getAssociatedObject"]
+- !private ["SQ", "objc_setAssociatedObject"]
+- !private ["SQ", "removeAllStubs"]
+- !private ["SQ", "removeStub"]
+- !private ["SQ", "swizzleTearDown"]
+- ["SQ", "tearDown"]
+- !private ["SH", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["SH", "MockingjayProtocol"]
+- !private ["SH", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SH", "XCTest"]
+- !private ["SH", "addStub"]
+- !private ["SH", "mockingjayRemoveStubOnTearDown"]
+- !private ["SH", "mockingjaySwizzleTearDown"]
+- ["SH", "mockingjayTearDown"]
+- !private ["SH", "objc_getAssociatedObject"]
+- !private ["SH", "objc_setAssociatedObject"]
+- !private ["SH", "removeAllStubs"]
+- !private ["SH", "removeStub"]
+- !private ["SH", "swizzleTearDown"]
+- ["SH", "tearDown"]
+- !private ["10Mockingjay0A8ProtocolC", "addStub"]
+- !private ["10Mockingjay0A8ProtocolC", "removeAllStubs"]
+- !private ["10Mockingjay0A8ProtocolC", "removeStub"]
+- !private ["So8NSObjectC", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Builder"]
+- ["So8NSObjectC", "Matcher"]
+- !private ["So8NSObjectC", "MockingjayProtocol"]
+- ["So8NSObjectC", "Stub"]
+- ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "XCTest"]
+- !private ["So8NSObjectC", "addStub"]
+- ["So8NSObjectC", "mockingjayRemoveStubOnTearDown"]
+- ["So8NSObjectC", "mockingjaySwizzleTearDown"]
+- ["So8NSObjectC", "mockingjayTearDown"]
+- !private ["So8NSObjectC", "objc_getAssociatedObject"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- ["So8NSObjectC", "removeAllStubs"]
+- ["So8NSObjectC", "removeStub"]
+- ["So8NSObjectC", "stub"]
+- !private ["So8NSObjectC", "swizzleTearDown"]
+- ["So8NSObjectC", "tearDown"]
+- !private ["So8NSObjectP", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["So8NSObjectP", "MockingjayProtocol"]
+- !private ["So8NSObjectP", "XCTest"]
+- !private ["So8NSObjectP", "addStub"]
+- !private ["So8NSObjectP", "mockingjayRemoveStubOnTearDown"]
+- !private ["So8NSObjectP", "mockingjaySwizzleTearDown"]
+- ["So8NSObjectP", "mockingjayTearDown"]
+- !private ["So8NSObjectP", "objc_getAssociatedObject"]
+- !private ["So8NSObjectP", "objc_setAssociatedObject"]
+- !private ["So8NSObjectP", "removeAllStubs"]
+- !private ["So8NSObjectP", "removeStub"]
+- !private ["So8NSObjectP", "swizzleTearDown"]
+- ["So8NSObjectP", "tearDown"]
+- !private ["SY", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["So13NSURLProtocolC", "addStub"]
+- !private ["So13NSURLProtocolC", "removeAllStubs"]
+- !private ["So13NSURLProtocolC", "removeStub"]
+- !private ["So6XCTestC", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- ["So6XCTestC", "Bool"]
+- ["So6XCTestC", "Builder"]
+- ["So6XCTestC", "Matcher"]
+- !private ["So6XCTestC", "MockingjayProtocol"]
+- ["So6XCTestC", "Stub"]
+- ["So6XCTestC", "TimeInterval"]
+- !private ["So6XCTestC", "XCTest"]
+- ["So6XCTestC", "mockingjayRemoveStubOnTearDown"]
+- ["So6XCTestC", "mockingjaySwizzleTearDown"]
+- ["So6XCTestC", "mockingjayTearDown"]
+- !private ["So6XCTestC", "objc_getAssociatedObject"]
+- !private ["So6XCTestC", "objc_setAssociatedObject"]
+- ["So6XCTestC", "removeAllStubs"]
+- ["So6XCTestC", "removeStub"]
+- ["So6XCTestC", "stub"]
+- !private ["So6XCTestC", "swizzleTearDown"]
+- ["So6XCTestC", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockingjayProtocol"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addStub"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockingjayRemoveStubOnTearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockingjaySwizzleTearDown"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mockingjayTearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllStubs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeStub"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "swizzleTearDown"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AssociatedMockingjayRemoveStubOnTearDownHandle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MockingjayProtocol"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addStub"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mockingjayRemoveStubOnTearDown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mockingjaySwizzleTearDown"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mockingjayTearDown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "objc_getAssociatedObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "objc_setAssociatedObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAllStubs"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeStub"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "swizzleTearDown"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tearDown"]
+- !private ["So22objc_AssociationPolicyV", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "10Mockingjay0A8ProtocolC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "So13NSURLProtocolC"
+- "So6XCTestC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "So22objc_AssociationPolicyV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Modules/URITemplate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Target Support Files/URITemplate/URITemplate-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Target Support Files/Mockingjay/Mockingjay-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Headers/URITemplate-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/Mockingjay.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Pods.build/Debug-iphonesimulator/Mockingjay.build/unextended-module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Pods.build/Debug-iphonesimulator/URITemplate.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8cbc77e78d9419c59fbc62c6089403bd"

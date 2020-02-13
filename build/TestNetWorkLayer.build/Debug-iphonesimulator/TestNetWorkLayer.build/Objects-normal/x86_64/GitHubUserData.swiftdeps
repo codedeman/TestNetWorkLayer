@@ -1,0 +1,195 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GitHubUserData"
+provides-nominal:
+- "16TestNetWorkLayer14GitHubUserDataV"
+provides-member:
+- ["16TestNetWorkLayer14GitHubUserDataV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "GitHubUserData"
+- "Int"
+- "JSON"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["SK", "intValue"]
+- !private ["SK", "stringValue"]
+- !private ["Sl", "intValue"]
+- !private ["Sl", "stringValue"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "intValue"]
+- !private ["SL", "stringValue"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "intValue"]
+- !private ["10Foundation15ContiguousBytesP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "intValue"]
+- !private ["10Foundation12DataProtocolP", "stringValue"]
+- !private ["Se", "intValue"]
+- !private ["Se", "stringValue"]
+- !private ["Se", "subscript"]
+- !private ["SE", "intValue"]
+- !private ["SE", "stringValue"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "intValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "intValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "intValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "intValue"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "intValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "Int"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "JSON"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "String"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "bio"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "email"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "init"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "name"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "numberOfFollowers"]
+- ["16TestNetWorkLayer14GitHubUserDataV", "numberOfFollowing"]
+- !private ["10SwiftyJSON0B0V", "intValue"]
+- !private ["10SwiftyJSON0B0V", "stringValue"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["s20LazySequenceProtocolP", "intValue"]
+- !private ["s20LazySequenceProtocolP", "stringValue"]
+- !private ["SM", "intValue"]
+- !private ["SM", "stringValue"]
+- !private ["Sk", "intValue"]
+- !private ["Sk", "stringValue"]
+- !private ["Sm", "intValue"]
+- !private ["Sm", "stringValue"]
+- !private ["SY", "intValue"]
+- !private ["SY", "stringValue"]
+- !private ["SY", "subscript"]
+- !private ["ST", "intValue"]
+- !private ["ST", "stringValue"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "intValue"]
+- !private ["s5SliceV", "stringValue"]
+depends-nominal:
+- !private "SK"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "16TestNetWorkLayer14GitHubUserDataV"
+- !private "10SwiftyJSON0B0V"
+- !private "s20LazySequenceProtocolP"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s5SliceV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Modules/Nimble.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Modules/Quick.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/DSL.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/QCKDSL.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/Nimble-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/Quick-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/QuickSpec.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/Nimble.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/NMBExceptionCapture.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/CwlPreconditionTesting.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/Quick.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/QuickConfiguration.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/CwlCatchException.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/CwlMachBadInstructionHandler.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/mach_excServer.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/Nimble-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/Quick-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/NMBStringify.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b226ec6e94082b873ac1ba6b5f61741b"

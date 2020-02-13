@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "87f4d2e927d6d88b4c97fc240b152206"
+build_time: [1581573811, 169268000]
+inputs:
+  "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/Builders.swift": [1581566413, 943040339]
+  "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/Matchers.swift": [1581566413, 952623806]
+  "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/Mockingjay.swift": [1581566413, 936882385]
+  "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/MockingjayProtocol.swift": [1581566413, 955454980]
+  "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/NSURLSessionConfiguration.swift": [1581566413, 951826125]
+  "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/XCTest.swift": [1581566413, 945943904]

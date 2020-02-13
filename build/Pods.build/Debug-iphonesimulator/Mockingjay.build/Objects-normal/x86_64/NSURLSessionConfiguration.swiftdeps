@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "swizzleDefaultSessionConfiguration"
+provides-nominal:
+provides-member:
+- ["So25NSURLSessionConfigurationC", ""]
+- ["So25NSURLSessionConfigurationC", "mockingjaySwizzleDefaultSessionConfiguration"]
+- ["So25NSURLSessionConfigurationC", "mockingjayDefaultSessionConfiguration"]
+- ["So25NSURLSessionConfigurationC", "mockingjayEphemeralSessionConfiguration"]
+provides-dynamic-lookup:
+- "mockingjayDefaultSessionConfiguration"
+- "mockingjayEphemeralSessionConfiguration"
+- "mockingjaySwizzleDefaultSessionConfiguration"
+depends-top-level:
+- !private "+"
+- !private "AnyClass"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "MockingjayProtocol"
+- "URLSessionConfiguration"
+- "Void"
+- "class_getClassMethod"
+- "method_exchangeImplementations"
+- "swizzleDefaultSessionConfiguration"
+depends-member:
+- !private ["s7CVarArgP", "MockingjayProtocol"]
+- ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "ephemeral"]
+- ["s7CVarArgP", "mockingjayDefaultSessionConfiguration"]
+- ["s7CVarArgP", "mockingjayEphemeralSessionConfiguration"]
+- !private ["s7CVarArgP", "protocolClasses"]
+- !private ["s7CVarArgP", "swizzleDefaultSessionConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "MockingjayProtocol"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "ephemeral"]
+- ["s28CustomDebugStringConvertibleP", "mockingjayDefaultSessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "mockingjayEphemeralSessionConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "protocolClasses"]
+- !private ["s28CustomDebugStringConvertibleP", "swizzleDefaultSessionConfiguration"]
+- !private ["s23CustomStringConvertibleP", "MockingjayProtocol"]
+- ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "ephemeral"]
+- ["s23CustomStringConvertibleP", "mockingjayDefaultSessionConfiguration"]
+- ["s23CustomStringConvertibleP", "mockingjayEphemeralSessionConfiguration"]
+- !private ["s23CustomStringConvertibleP", "protocolClasses"]
+- !private ["s23CustomStringConvertibleP", "swizzleDefaultSessionConfiguration"]
+- !private ["SQ", "MockingjayProtocol"]
+- ["SQ", "default"]
+- ["SQ", "ephemeral"]
+- ["SQ", "mockingjayDefaultSessionConfiguration"]
+- ["SQ", "mockingjayEphemeralSessionConfiguration"]
+- !private ["SQ", "protocolClasses"]
+- !private ["SQ", "swizzleDefaultSessionConfiguration"]
+- !private ["SH", "MockingjayProtocol"]
+- ["SH", "default"]
+- ["SH", "ephemeral"]
+- ["SH", "mockingjayDefaultSessionConfiguration"]
+- ["SH", "mockingjayEphemeralSessionConfiguration"]
+- !private ["SH", "protocolClasses"]
+- !private ["SH", "swizzleDefaultSessionConfiguration"]
+- !private ["So9NSCopyingP", "MockingjayProtocol"]
+- ["So9NSCopyingP", "default"]
+- ["So9NSCopyingP", "ephemeral"]
+- ["So9NSCopyingP", "mockingjayDefaultSessionConfiguration"]
+- ["So9NSCopyingP", "mockingjayEphemeralSessionConfiguration"]
+- !private ["So9NSCopyingP", "protocolClasses"]
+- !private ["So9NSCopyingP", "swizzleDefaultSessionConfiguration"]
+- !private ["So8NSObjectC", "AnyClass"]
+- !private ["So8NSObjectC", "MockingjayProtocol"]
+- ["So8NSObjectC", "URLSessionConfiguration"]
+- ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "ephemeral"]
+- ["So8NSObjectC", "mockingjayDefaultSessionConfiguration"]
+- ["So8NSObjectC", "mockingjayEphemeralSessionConfiguration"]
+- ["So8NSObjectC", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["So8NSObjectC", "protocolClasses"]
+- !private ["So8NSObjectC", "swizzleDefaultSessionConfiguration"]
+- !private ["So8NSObjectP", "MockingjayProtocol"]
+- ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "ephemeral"]
+- ["So8NSObjectP", "mockingjayDefaultSessionConfiguration"]
+- ["So8NSObjectP", "mockingjayEphemeralSessionConfiguration"]
+- !private ["So8NSObjectP", "protocolClasses"]
+- !private ["So8NSObjectP", "swizzleDefaultSessionConfiguration"]
+- !private ["So25NSURLSessionConfigurationC", "AnyClass"]
+- !private ["So25NSURLSessionConfigurationC", "MockingjayProtocol"]
+- ["So25NSURLSessionConfigurationC", "URLSessionConfiguration"]
+- ["So25NSURLSessionConfigurationC", "default"]
+- ["So25NSURLSessionConfigurationC", "ephemeral"]
+- ["So25NSURLSessionConfigurationC", "mockingjayDefaultSessionConfiguration"]
+- ["So25NSURLSessionConfigurationC", "mockingjayEphemeralSessionConfiguration"]
+- ["So25NSURLSessionConfigurationC", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["So25NSURLSessionConfigurationC", "protocolClasses"]
+- !private ["So25NSURLSessionConfigurationC", "swizzleDefaultSessionConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockingjayProtocol"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ephemeral"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mockingjayDefaultSessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mockingjayEphemeralSessionConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "protocolClasses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "swizzleDefaultSessionConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MockingjayProtocol"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ephemeral"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mockingjayDefaultSessionConfiguration"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mockingjayEphemeralSessionConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "protocolClasses"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "swizzleDefaultSessionConfiguration"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So25NSURLSessionConfigurationC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Modules/URITemplate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Target Support Files/URITemplate/URITemplate-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Target Support Files/Mockingjay/Mockingjay-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Headers/URITemplate-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Mockingjay/Sources/Mockingjay/Mockingjay.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Pods.build/Debug-iphonesimulator/Mockingjay.build/unextended-module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Pods.build/Debug-iphonesimulator/URITemplate.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dd557c3873989400544e3eec0d558b11"

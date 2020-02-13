@@ -1,0 +1,354 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So18QuickConfigurationC", ""]
+- ["So18QuickConfigurationC", "configureSubclassesIfNeeded"]
+provides-dynamic-lookup:
+- "configureSubclassesIfNeeded"
+depends-top-level:
+- !private "..<"
+- !private "=="
+- !private ">"
+- !private "AnyClass"
+- "AssignmentPrecedence"
+- !private "AutoreleasingUnsafeMutablePointer"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "QuickConfiguration"
+- !private "UnsafeMutablePointer"
+- "Void"
+- "World"
+- !private "class_getSuperclass"
+- !private "free"
+- !private "objc_getClassList"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["SA", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "forEach"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "AutoreleasingUnsafeMutablePointer"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "QuickConfiguration"]
+- !private ["s7CVarArgP", "UnsafeMutablePointer"]
+- !private ["s7CVarArgP", "_configureSubclassesIfNeeded"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "class_getSuperclass"]
+- !private ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "enumerateSubclasses"]
+- !private ["s7CVarArgP", "finalizeConfiguration"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "free"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isConfigurationFinalized"]
+- !private ["s7CVarArgP", "objc_getClassList"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "forEach"]
+- !private ["SL", "allocate"]
+- !private ["SL", "init"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "AutoreleasingUnsafeMutablePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "QuickConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "_configureSubclassesIfNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "class_getSuperclass"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerateSubclasses"]
+- !private ["s28CustomDebugStringConvertibleP", "finalizeConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "free"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isConfigurationFinalized"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getClassList"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "AutoreleasingUnsafeMutablePointer"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "QuickConfiguration"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s23CustomStringConvertibleP", "_configureSubclassesIfNeeded"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "class_getSuperclass"]
+- !private ["s23CustomStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "enumerateSubclasses"]
+- !private ["s23CustomStringConvertibleP", "finalizeConfiguration"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "free"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isConfigurationFinalized"]
+- !private ["s23CustomStringConvertibleP", "objc_getClassList"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "append"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SQ", "AutoreleasingUnsafeMutablePointer"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "QuickConfiguration"]
+- !private ["SQ", "UnsafeMutablePointer"]
+- !private ["SQ", "_configureSubclassesIfNeeded"]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "append"]
+- !private ["SQ", "class_getSuperclass"]
+- !private ["SQ", "configure"]
+- !private ["SQ", "enumerateSubclasses"]
+- !private ["SQ", "finalizeConfiguration"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "free"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isConfigurationFinalized"]
+- !private ["SQ", "objc_getClassList"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "AutoreleasingUnsafeMutablePointer"]
+- !private ["SH", "Int"]
+- !private ["SH", "QuickConfiguration"]
+- !private ["SH", "UnsafeMutablePointer"]
+- !private ["SH", "_configureSubclassesIfNeeded"]
+- !private ["SH", "allocate"]
+- !private ["SH", "append"]
+- !private ["SH", "class_getSuperclass"]
+- !private ["SH", "configure"]
+- !private ["SH", "enumerateSubclasses"]
+- !private ["SH", "finalizeConfiguration"]
+- !private ["SH", "forEach"]
+- !private ["SH", "free"]
+- !private ["SH", "init"]
+- !private ["SH", "isConfigurationFinalized"]
+- !private ["SH", "objc_getClassList"]
+- !private ["SH", "subscript"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["So8NSObjectC", "AnyClass"]
+- !private ["So8NSObjectC", "AutoreleasingUnsafeMutablePointer"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "QuickConfiguration"]
+- !private ["So8NSObjectC", "UnsafeMutablePointer"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "World"]
+- ["So8NSObjectC", "_configureSubclassesIfNeeded"]
+- !private ["So8NSObjectC", "class_getSuperclass"]
+- !private ["So8NSObjectC", "configure"]
+- ["So8NSObjectC", "configureSubclassesIfNeeded"]
+- ["So8NSObjectC", "enumerateSubclasses"]
+- !private ["So8NSObjectC", "finalizeConfiguration"]
+- !private ["So8NSObjectC", "free"]
+- !private ["So8NSObjectC", "isConfigurationFinalized"]
+- !private ["So8NSObjectC", "objc_getClassList"]
+- !private ["So8NSObjectP", "AutoreleasingUnsafeMutablePointer"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "QuickConfiguration"]
+- !private ["So8NSObjectP", "UnsafeMutablePointer"]
+- !private ["So8NSObjectP", "_configureSubclassesIfNeeded"]
+- !private ["So8NSObjectP", "class_getSuperclass"]
+- !private ["So8NSObjectP", "configure"]
+- !private ["So8NSObjectP", "enumerateSubclasses"]
+- !private ["So8NSObjectP", "finalizeConfiguration"]
+- !private ["So8NSObjectP", "free"]
+- !private ["So8NSObjectP", "isConfigurationFinalized"]
+- !private ["So8NSObjectP", "objc_getClassList"]
+- !private ["Sj", "init"]
+- !private ["So18QuickConfigurationC", "AnyClass"]
+- !private ["So18QuickConfigurationC", "AutoreleasingUnsafeMutablePointer"]
+- !private ["So18QuickConfigurationC", "Int"]
+- ["So18QuickConfigurationC", "QuickConfiguration"]
+- !private ["So18QuickConfigurationC", "UnsafeMutablePointer"]
+- ["So18QuickConfigurationC", "Void"]
+- ["So18QuickConfigurationC", "World"]
+- !private ["So18QuickConfigurationC", "_configureSubclassesIfNeeded"]
+- !private ["So18QuickConfigurationC", "class_getSuperclass"]
+- !private ["So18QuickConfigurationC", "configure"]
+- ["So18QuickConfigurationC", "configureSubclassesIfNeeded"]
+- !private ["So18QuickConfigurationC", "enumerateSubclasses"]
+- !private ["So18QuickConfigurationC", "free"]
+- !private ["So18QuickConfigurationC", "objc_getClassList"]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", "append"]
+- !private ["Sm", "forEach"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "forEach"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "init"]
+- !private ["Sx", "subscript"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "subscript"]
+- !private ["5Quick5WorldC", "configure"]
+- !private ["5Quick5WorldC", "finalizeConfiguration"]
+- !private ["5Quick5WorldC", "isConfigurationFinalized"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AutoreleasingUnsafeMutablePointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "QuickConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnsafeMutablePointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_configureSubclassesIfNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "class_getSuperclass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerateSubclasses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finalizeConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "free"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isConfigurationFinalized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getClassList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AutoreleasingUnsafeMutablePointer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "QuickConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UnsafeMutablePointer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_configureSubclassesIfNeeded"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "class_getSuperclass"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enumerateSubclasses"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "finalizeConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "free"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isConfigurationFinalized"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "objc_getClassList"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["5Quick10_WorldBaseC", "configure"]
+- !private ["5Quick10_WorldBaseC", "finalizeConfiguration"]
+- !private ["5Quick10_WorldBaseC", "isConfigurationFinalized"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SA"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- "So18QuickConfigurationC"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "Sp"
+- !private "5Quick5WorldC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "5Quick10_WorldBaseC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Quick/Sources/QuickObjectiveC/DSL/QCKDSL.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Target Support Files/Quick/Quick-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Quick/Sources/QuickObjectiveC/QuickSpec.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Quick/Sources/QuickObjectiveC/Quick.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/Pods/Quick/Sources/QuickObjectiveC/Configuration/QuickConfiguration.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Pods.build/Debug-iphonesimulator/Quick.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a615257e3384c499d672d2fc6d07dc54"

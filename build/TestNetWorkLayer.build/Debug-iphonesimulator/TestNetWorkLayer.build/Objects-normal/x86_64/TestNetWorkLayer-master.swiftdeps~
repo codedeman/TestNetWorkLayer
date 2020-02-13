@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "47985f2271c910044d757eae2402f2b8"
+build_time: [1581568843, 246178000]
+inputs:
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayer/GitHubApiClient.swift": [1581561519, 4935797]
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayer/ViewController.swift": [1581561691, 432521866]
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayer/AFNetworkingApiClient.swift": [1581566427, 24756463]
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayer/AppDelegate.swift": [1581557149, 159662163]
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayer/NativeApiClient.swift": [1581561701, 190903500]
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayer/SceneDelegate.swift": [1581557149, 165014896]
+  "/Users/macosx/Desktop/TestNetWorkLayer/TestNetWorkLayer/Models/GitHubUserData.swift": [1581559170, 663553651]
+  "/Users/macosx/Desktop/TestNetWorkLayer/NativeApiClientSpec.swift": [1581568838, 744318551]

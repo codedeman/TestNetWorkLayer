@@ -1,0 +1,361 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NativeApiClientSpec"
+provides-nominal:
+- "16TestNetWorkLayer19NativeApiClientSpecC"
+provides-member:
+- ["16TestNetWorkLayer19NativeApiClientSpecC", ""]
+provides-dynamic-lookup:
+- "spec"
+depends-top-level:
+- !private "AFNetWorkingApiClient"
+- !private "AssignmentPrecedence"
+- !private "Bundle"
+- "FloatLiteralType"
+- !private "GitHubUserData"
+- "IntegerLiteralType"
+- !private "NSError"
+- "NativeApiClientSpec"
+- "QuickSpec"
+- !private "StringLiteralType"
+- !private "beNil"
+- !private "context"
+- !private "debugPrint"
+- !private "describe"
+- !private "expect"
+- !private "it"
+depends-member:
+- !private ["16TestNetWorkLayer21AFNetWorkingApiClientC", "deinit"]
+- !private ["16TestNetWorkLayer21AFNetWorkingApiClientC", "requestUserWithUsername"]
+- !private ["9Alamofire0A8ExtendedP", "main"]
+- !private ["9Alamofire0A8ExtendedP", "path"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["s7CVarArgP", "AFNetWorkingApiClient"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "NSError"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "beNil"]
+- !private ["s7CVarArgP", "context"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "describe"]
+- !private ["s7CVarArgP", "expect"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "it"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "spec"]
+- !private ["s28CustomDebugStringConvertibleP", "AFNetWorkingApiClient"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "beNil"]
+- !private ["s28CustomDebugStringConvertibleP", "context"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "describe"]
+- !private ["s28CustomDebugStringConvertibleP", "expect"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "it"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "spec"]
+- !private ["s23CustomStringConvertibleP", "AFNetWorkingApiClient"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "beNil"]
+- !private ["s23CustomStringConvertibleP", "context"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "describe"]
+- !private ["s23CustomStringConvertibleP", "expect"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "it"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "spec"]
+- !private ["SQ", "AFNetWorkingApiClient"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "NSError"]
+- ["SQ", ""]
+- !private ["SQ", "beNil"]
+- !private ["SQ", "context"]
+- !private ["SQ", "debugPrint"]
+- !private ["SQ", "describe"]
+- !private ["SQ", "expect"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "it"]
+- !private ["SQ", "main"]
+- !private ["SQ", "path"]
+- !private ["SQ", "spec"]
+- !private ["s5ErrorP", "init"]
+- !private ["6Nimble11ExpectationV", "toEventuallyNot"]
+- !private ["16TestNetWorkLayer15GitHubApiClientP", "requestUserWithUsername"]
+- !private ["SH", "AFNetWorkingApiClient"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "NSError"]
+- ["SH", ""]
+- !private ["SH", "beNil"]
+- !private ["SH", "context"]
+- !private ["SH", "debugPrint"]
+- !private ["SH", "describe"]
+- !private ["SH", "expect"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "it"]
+- !private ["SH", "main"]
+- !private ["SH", "path"]
+- !private ["SH", "spec"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So8NSObjectC", "AFNetWorkingApiClient"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "GitHubUserData"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "beNil"]
+- !private ["So8NSObjectC", "context"]
+- !private ["So8NSObjectC", "debugPrint"]
+- !private ["So8NSObjectC", "describe"]
+- !private ["So8NSObjectC", "expect"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "it"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "spec"]
+- !private ["So8NSObjectP", "AFNetWorkingApiClient"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "NSError"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "beNil"]
+- !private ["So8NSObjectP", "context"]
+- !private ["So8NSObjectP", "debugPrint"]
+- !private ["So8NSObjectP", "describe"]
+- !private ["So8NSObjectP", "expect"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "it"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "spec"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "AFNetWorkingApiClient"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "Bundle"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "GitHubUserData"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "NSError"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "beNil"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "context"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "debugPrint"]
+- ["16TestNetWorkLayer19NativeApiClientSpecC", "deinit"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "describe"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "expect"]
+- ["16TestNetWorkLayer19NativeApiClientSpecC", "init"]
+- !private ["16TestNetWorkLayer19NativeApiClientSpecC", "it"]
+- ["16TestNetWorkLayer19NativeApiClientSpecC", "spec"]
+- !private ["So9QuickSpecC", "AFNetWorkingApiClient"]
+- !private ["So9QuickSpecC", "Bundle"]
+- !private ["So9QuickSpecC", "GitHubUserData"]
+- !private ["So9QuickSpecC", "NSError"]
+- ["So9QuickSpecC", ""]
+- !private ["So9QuickSpecC", "beNil"]
+- !private ["So9QuickSpecC", "context"]
+- !private ["So9QuickSpecC", "debugPrint"]
+- !private ["So9QuickSpecC", "describe"]
+- !private ["So9QuickSpecC", "expect"]
+- ["So9QuickSpecC", "init"]
+- !private ["So9QuickSpecC", "init"]
+- !private ["So9QuickSpecC", "it"]
+- ["So9QuickSpecC", "spec"]
+- !private ["So11XCTActivityP", "AFNetWorkingApiClient"]
+- !private ["So11XCTActivityP", "Bundle"]
+- !private ["So11XCTActivityP", "NSError"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "beNil"]
+- !private ["So11XCTActivityP", "context"]
+- !private ["So11XCTActivityP", "debugPrint"]
+- !private ["So11XCTActivityP", "describe"]
+- !private ["So11XCTActivityP", "expect"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "it"]
+- !private ["So11XCTActivityP", "spec"]
+- !private ["So17XCTWaiterDelegateP", "AFNetWorkingApiClient"]
+- !private ["So17XCTWaiterDelegateP", "Bundle"]
+- !private ["So17XCTWaiterDelegateP", "NSError"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "beNil"]
+- !private ["So17XCTWaiterDelegateP", "context"]
+- !private ["So17XCTWaiterDelegateP", "debugPrint"]
+- !private ["So17XCTWaiterDelegateP", "describe"]
+- !private ["So17XCTWaiterDelegateP", "expect"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "it"]
+- !private ["So17XCTWaiterDelegateP", "spec"]
+- !private ["So6XCTestC", "AFNetWorkingApiClient"]
+- !private ["So6XCTestC", "Bundle"]
+- !private ["So6XCTestC", "GitHubUserData"]
+- !private ["So6XCTestC", "NSError"]
+- !private ["So6XCTestC", "beNil"]
+- !private ["So6XCTestC", "context"]
+- !private ["So6XCTestC", "debugPrint"]
+- !private ["So6XCTestC", "describe"]
+- !private ["So6XCTestC", "expect"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "it"]
+- ["So6XCTestC", "spec"]
+- !private ["So10XCTestCaseC", "AFNetWorkingApiClient"]
+- !private ["So10XCTestCaseC", "Bundle"]
+- !private ["So10XCTestCaseC", "GitHubUserData"]
+- !private ["So10XCTestCaseC", "NSError"]
+- !private ["So10XCTestCaseC", "beNil"]
+- !private ["So10XCTestCaseC", "context"]
+- !private ["So10XCTestCaseC", "debugPrint"]
+- !private ["So10XCTestCaseC", "describe"]
+- !private ["So10XCTestCaseC", "expect"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "it"]
+- ["So10XCTestCaseC", "spec"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AFNetWorkingApiClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "context"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "describe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "it"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "spec"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AFNetWorkingApiClient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "beNil"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "context"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugPrint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "describe"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "expect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "it"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "spec"]
+depends-nominal:
+- !private "16TestNetWorkLayer21AFNetWorkingApiClientC"
+- !private "9Alamofire0A8ExtendedP"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "6Nimble11ExpectationV"
+- !private "16TestNetWorkLayer15GitHubApiClientP"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "16TestNetWorkLayer19NativeApiClientSpecC"
+- "So9QuickSpecC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Modules/Nimble.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Modules/URITemplate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Modules/Quick.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Modules/Mockingjay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/DSL.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/QCKDSL.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/Nimble-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Headers/URITemplate-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/Quick-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Headers/Mockingjay-umbrella.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/QuickSpec.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/Nimble.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/NMBExceptionCapture.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/CwlPreconditionTesting.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/Quick.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/QuickConfiguration.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/CwlCatchException.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/CwlMachBadInstructionHandler.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/mach_excServer.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/Nimble-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Headers/URITemplate-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Headers/Quick-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Headers/Mockingjay-Swift.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Headers/Mockingjay.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/NMBStringify.h"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Nimble/Nimble.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/URITemplate/URITemplate.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Quick/Quick.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/TestNetWorkLayer/build/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "63ad930ec6cc5c53a34944c71cfc0d5f"
