@@ -11,9 +11,10 @@ let kGitHubApiBaseUrl = "https://api.github.com/"
 
 typealias GitHubGetUserCallback = (GitHubUserData) -> Void
 typealias ErrorCallback = (NSError) -> Void
+
 protocol GitHubApiClient {
 
-  static func requestUserWithUsername(username: String,
+  static func requestUserWithUsername(_ username: String,
    onSuccess: GitHubGetUserCallback?,
    onError: ErrorCallback?)
 }

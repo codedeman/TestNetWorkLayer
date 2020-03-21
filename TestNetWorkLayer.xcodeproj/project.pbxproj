@@ -19,10 +19,10 @@
 		0C0E120823F4DD8D003FDE74 /* GitHubUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E120723F4DD8D003FDE74 /* GitHubUserData.swift */; };
 		0C0E120B23F4E1E2003FDE74 /* AFNetworkingApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E120A23F4E1E2003FDE74 /* AFNetworkingApiClient.swift */; };
 		0C0E120D23F4EE2C003FDE74 /* NativeApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E120C23F4EE2C003FDE74 /* NativeApiClient.swift */; };
-		0C0E121523F4F1B1003FDE74 /* NativeApiClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E121423F4F1B1003FDE74 /* NativeApiClientSpec.swift */; };
 		0C0E121623F4F6A6003FDE74 /* Pods_TestNetWorkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B9D00702FCFF12CBEEF939 /* Pods_TestNetWorkLayer.framework */; };
 		0C0E121723F4F6A6003FDE74 /* Pods_TestNetWorkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40B9D00702FCFF12CBEEF939 /* Pods_TestNetWorkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C0E122523F504FE003FDE74 /* GetUserSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E122423F504FE003FDE74 /* GetUserSuccess.json */; };
+		18AE0CB924261953000F9523 /* NativeApiClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E121423F4F1B1003FDE74 /* NativeApiClientSpec.swift */; };
 		E7B5F1FA2B29C16C39B7DDB2 /* Pods_TestNetWorkLayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0C4435899A6F67981EA544 /* Pods_TestNetWorkLayerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -119,7 +119,6 @@
 		0C0E11C923F4DD1D003FDE74 = {
 			isa = PBXGroup;
 			children = (
-				0C0E121423F4F1B1003FDE74 /* NativeApiClientSpec.swift */,
 				0C0E11D423F4DD1D003FDE74 /* TestNetWorkLayer */,
 				0C0E11EB23F4DD20003FDE74 /* TestNetWorkLayerTests */,
 				0C0E11F623F4DD20003FDE74 /* TestNetWorkLayerUITests */,
@@ -160,6 +159,7 @@
 		0C0E11EB23F4DD20003FDE74 /* TestNetWorkLayerTests */ = {
 			isa = PBXGroup;
 			children = (
+				0C0E121423F4F1B1003FDE74 /* NativeApiClientSpec.swift */,
 				0C0E122423F504FE003FDE74 /* GetUserSuccess.json */,
 				0C0E11EC23F4DD20003FDE74 /* TestNetWorkLayerTests.swift */,
 				0C0E11EE23F4DD20003FDE74 /* Info.plist */,
@@ -414,7 +414,6 @@
 				0C0E120D23F4EE2C003FDE74 /* NativeApiClient.swift in Sources */,
 				0C0E11D823F4DD1D003FDE74 /* SceneDelegate.swift in Sources */,
 				0C0E120823F4DD8D003FDE74 /* GitHubUserData.swift in Sources */,
-				0C0E121523F4F1B1003FDE74 /* NativeApiClientSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0E11ED23F4DD20003FDE74 /* TestNetWorkLayerTests.swift in Sources */,
+				18AE0CB924261953000F9523 /* NativeApiClientSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

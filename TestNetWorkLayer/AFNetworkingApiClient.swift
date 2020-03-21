@@ -11,7 +11,7 @@ import SwiftyJSON
 import Alamofire
 
 class AFNetWorkingApiClient: GitHubApiClient {
-    static func requestUserWithUsername(username: String, onSuccess: GitHubGetUserCallback?, onError: ErrorCallback?) {
+  static func requestUserWithUsername(_ username: String, onSuccess: GitHubGetUserCallback? = nil, onError: ErrorCallback? = nil) {
           let urlString = "https://api.github.com/users/\(username)"
                 AF.request(urlString).responseJSON { (response) in
                     switch response.result{

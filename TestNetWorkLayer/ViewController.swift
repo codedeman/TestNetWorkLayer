@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        AFNetWorkingApiClient.requestUserWithUsername(username: "codedeman", onSuccess: { (success) in
+      AFNetWorkingApiClient.requestUserWithUsername("codedeman", onSuccess: { (success) in
             print(success)
         }) { (error) in
             debugPrint(error)
